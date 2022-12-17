@@ -1,0 +1,50 @@
+body{
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/*imagen QR*/
+.img-imagen{
+    width: 90%;
+    border-radius: 10px;
+}
+
+/*Contenedor de la imagen*/
+.img-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+/*contenedor general*/
+.container{
+    background-color: hsl(0, 0%, 100%);
+    width: 300px;
+    border-radius: 10px;
+    padding-bottom: 15px;
+}
+
+/*contenedor de los textos*/
+.contain{
+    margin: 25px;
+}
+
+/*parrafo*/
+.text{
+     font-size: 15px;
+    text-align: center;
+    color: hsl(220, 15%, 55%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+}
+
+/*titulo*/
+.title{
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+}
